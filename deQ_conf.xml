@@ -1,0 +1,10 @@
+<configuration>
+    <qpath>/umsdata1/enmq</qpath>
+    <qname>GW-REAL-REQ</qname>
+    <qid>0</qid>
+	 <!-- Log level can be one of: TRACE:0, DEBUG:1, INFO:2, ERROR:4 -->
+    <log_level>4</log_level>
+	<log_filename>/logs/fq/TestDeQXA.java.log</log_filename>
+    <working_time>0</working_time>
+    <test_count>10000000</test_count>
+</configuration>
