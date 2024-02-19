@@ -4,6 +4,6 @@
 # 4-th       : multi_num
 # 5-th       : msglen
 #
-/home/ums/work/jni_deploy/enmq|MTS_ONL|100|100|8192
-/home/ums/work/jni_deploy/enmq|MTS_BAT|100|100|8192
-/home/ums/work/jni_deploy/enmq|MTS_RESULT|100|100|8192
+/home/ums/work/jni_deploy/enmq|MTS_ONL|100|40|8192
+/home/ums/work/jni_deploy/enmq|MTS_BAT|100|40|8192
+/home/ums/work/jni_deploy/enmq|MTS_RESULT|100|40|8192
