@@ -1,9 +1,9 @@
 <configuration>
-    <qpath>/umsdata1/enmq</qpath>
-    <qname>GW-REAL-REQ</qname>
+    <qpath>/home/ums/work/jni_deploy/enmq</qpath>
+    <qname>MTS_RESULT</qname>
     <qid>0</qid>
 	 <!-- Log level can be one of: TRACE:0, DEBUG:1, INFO:2, ERROR:4 -->
     <log_level>4</log_level>
-	<log_filename>/logs/fq/TestenQ_loop.log</log_filename>
+	<log_filename>/home/ums/work/jni_deploy/logs/TestenQ_loop.log</log_filename>
     <test_count>10000000</test_count>
 </configuration>

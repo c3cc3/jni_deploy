@@ -1,0 +1,188 @@
+[화  2월 20 00:43:09.423 2024] [3925506:0] [debug] fq_set_time_fmt::fq_log.c (00144): Pre-processed log time stamp format is '[%a %b %d %H:%M:%S.000 %Y] '
+[화  2월 20 00:43:09.423 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeOpen::com_clang_fq_FileQueueJNI.c (00146): FQ->[/home/ums/work/jni_deploy/enmq, MTS_ONL]: Open index is [4]
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] OpenFileQueue::fqueue.c (04371): enter
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] open_headfile_obj::fqueue.c (00926): enter
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] can_access_file::fq_common.c (02815): enter
+[화  2월 20 00:43:09.423 2024] [3925506:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_ONL.h] access OK.
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] can_access_file::fq_common.c (02829): exit
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] fq_mmapping::fqueue.c (00330): enter
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] fq_mmapping::fqueue.c (00342): exit
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[화  2월 20 00:43:09.423 2024] [3925506:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_headfile_obj::fqueue.c (01004): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_datafile_obj::fqueue.c (01025): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] can_access_file::fq_common.c (02815): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_ONL.r] access OK.
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] can_access_file::fq_common.c (02829): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_datafile_obj::fqueue.c (01058): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_backupfile_obj::fqueue.c (01078): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_backupfile_obj::fqueue.c (01102): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] open_unixQ_obj::fq_unixQ.c (00151): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] OpenFileQueue::fqueue.c (04524): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeOpen::com_clang_fq_FileQueueJNI.c (00160): success path=[/home/ums/work/jni_deploy/enmq], qname=[MTS_ONL].
+[화  2월 20 00:43:09.424 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:09.424 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:09.424 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:43:10.425 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:10.425 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:10.425 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:43:11.426 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:11.428 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:11.428 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:43:12.429 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:12.429 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:12.429 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:43:13.430 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:13.430 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:13.430 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:13.430 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:13.430 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:13.430 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:13.430 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:13.431 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:13.431 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:13.431 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:13.431 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:13.431 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:43:14.432 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:14.432 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:14.441 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:14.441 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:43:15.442 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:15.442 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:15.442 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:15.442 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:15.442 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:15.442 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:15.442 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:15.442 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:15.443 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:15.443 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:15.443 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:15.443 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:43:16.444 2024] [3925506:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:43:16.444 2024] [3925506:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:43:16.444 2024] [3925506:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [debug] fq_set_time_fmt::fq_log.c (00144): Pre-processed log time stamp format is '[%a %b %d %H:%M:%S.000 %Y] '
+[화  2월 20 00:44:59.717 2024] [3925791:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeOpen::com_clang_fq_FileQueueJNI.c (00146): FQ->[/home/ums/work/jni_deploy/enmq, MTS_ONL]: Open index is [4]
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] OpenFileQueue::fqueue.c (04371): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_headfile_obj::fqueue.c (00926): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] can_access_file::fq_common.c (02815): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_ONL.h] access OK.
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] can_access_file::fq_common.c (02829): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] fq_mmapping::fqueue.c (00330): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] fq_mmapping::fqueue.c (00342): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_headfile_obj::fqueue.c (01004): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_datafile_obj::fqueue.c (01025): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] can_access_file::fq_common.c (02815): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_ONL.r] access OK.
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] can_access_file::fq_common.c (02829): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_datafile_obj::fqueue.c (01058): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_backupfile_obj::fqueue.c (01078): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_backupfile_obj::fqueue.c (01102): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] open_unixQ_obj::fq_unixQ.c (00151): enter
+[화  2월 20 00:44:59.717 2024] [3925791:0] [trace] OpenFileQueue::fqueue.c (04524): exit
+[화  2월 20 00:44:59.717 2024] [3925791:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeOpen::com_clang_fq_FileQueueJNI.c (00160): success path=[/home/ums/work/jni_deploy/enmq], qname=[MTS_ONL].
+[화  2월 20 00:44:59.718 2024] [3925791:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:44:59.718 2024] [3925791:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:44:59.718 2024] [3925791:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:45:00.719 2024] [3925791:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:45:00.719 2024] [3925791:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:45:00.719 2024] [3925791:0] [trace] on_de_XA::fqueue.c (03586): exit
+[화  2월 20 00:45:01.720 2024] [3925791:0] [debug] Java_com_clang_fq_FileQueueJNI_NativeReadXA::com_clang_fq_FileQueueJNI.c (00379): tid_index=[4]. queue:[/home/ums/work/jni_deploy/enmq][MTS_ONL]
+[화  2월 20 00:45:01.721 2024] [3925791:0] [trace] on_de_XA::fqueue.c (03235): enter
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00064): enter
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] on_mutex_lock::fq_pthread_mutex_lock.c (00082): exit
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01226): enter
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00178): enter
+[화  2월 20 00:45:01.722 2024] [3925791:0] [debug] on_mutex_unlock::fq_pthread_mutex_lock.c (00181): safe unlock OK.
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] on_mutex_unlock::fq_pthread_mutex_lock.c (00183): exit
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] fq_critical_section::fqueue.c (01297): exit
+[화  2월 20 00:45:01.722 2024] [3925791:0] [trace] on_de_XA::fqueue.c (03586): exit

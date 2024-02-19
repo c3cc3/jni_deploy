@@ -1,0 +1,9 @@
+# 1-th column: path
+# 2-th column: qname
+# 3-th       : mapping_num
+# 4-th       : multi_num
+# 5-th       : msglen
+#
+/home/ums/work/jni_deploy/enmq|MTS_ONL|100|100|8192
+/home/ums/work/jni_deploy/enmq|MTS_BAT|100|100|8192
+/home/ums/work/jni_deploy/enmq|MTS_RESULT|100|100|8192
