@@ -1,0 +1,114 @@
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [debug] fq_set_time_fmt::fq_log.c (00144): Pre-processed log time stamp format is '[%a %b %d %H:%M:%S.000 %Y] '
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [info] main::fq_handler_svr_json.c (01079): fq_handler my conf loading ok.
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] Make_all_fq_objects_linkedlist::fqueue.c (06584): enter
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] MakeLinkedList_filequeues::fq_monitor.c (00601): enter
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] load_fq_container::fq_manage.c (00758): enter
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] open_file_list::fq_file_list.c (00078): enter
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] open_file_list::fq_file_list.c (00129): exit
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] open_file_list::fq_file_list.c (00078): enter
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] open_file_list::fq_file_list.c (00129): exit
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] load_info_param::fq_info_param.c (00013): enter
+[Tue Feb 20 06:03:06.078 2024] [3946148:0] [trace] read_fq_info::fq_info.c (00297): enter
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] read_fq_info::fq_info.c (00356): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] load_info_param::fq_info_param.c (00023): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] load_info_param::fq_info_param.c (00013): enter
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] read_fq_info::fq_info.c (00297): enter
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] read_fq_info::fq_info.c (00356): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] load_info_param::fq_info_param.c (00023): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] load_info_param::fq_info_param.c (00013): enter
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] read_fq_info::fq_info.c (00297): enter
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] read_fq_info::fq_info.c (00356): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] load_info_param::fq_info_param.c (00023): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] open_file_list::fq_file_list.c (00078): enter
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] open_file_list::fq_file_list.c (00081): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [trace] load_fq_container::fq_manage.c (00917): exit
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [debug] MakeLinkedList_filequeues::fq_monitor.c (00617): KEY: [/home/ums/work/jni_deploy/enmq/MTS_ONL].
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [debug] MakeLinkedList_filequeues::fq_monitor.c (00617): KEY: [/home/ums/work/jni_deploy/enmq/MTS_BAT].
+[Tue Feb 20 06:03:06.088 2024] [3946148:0] [debug] MakeLinkedList_filequeues::fq_monitor.c (00617): KEY: [/home/ums/work/jni_deploy/enmq/MTS_RESULT].
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] MakeLinkedList_filequeues::fq_monitor.c (00639): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [debug] Make_all_fq_objects_linkedlist::fqueue.c (06606): path=[/home/ums/work/jni_deploy/enmq], name=[MTS_ONL].
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] OpenFileQueue::fqueue.c (04371): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_headfile_obj::fqueue.c (00926): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] can_access_file::fq_common.c (02815): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_ONL.h] access OK.
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] can_access_file::fq_common.c (02829): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] fq_mmapping::fqueue.c (00330): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] fq_mmapping::fqueue.c (00342): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_headfile_obj::fqueue.c (01004): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_datafile_obj::fqueue.c (01025): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] can_access_file::fq_common.c (02815): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_ONL.r] access OK.
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] can_access_file::fq_common.c (02829): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_datafile_obj::fqueue.c (01058): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_backupfile_obj::fqueue.c (01078): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_backupfile_obj::fqueue.c (01102): exit
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] open_unixQ_obj::fq_unixQ.c (00151): enter
+[Tue Feb 20 06:03:06.089 2024] [3946148:0] [trace] OpenFileQueue::fqueue.c (04524): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [debug] Make_all_fq_objects_linkedlist::fqueue.c (06606): path=[/home/ums/work/jni_deploy/enmq], name=[MTS_BAT].
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] OpenFileQueue::fqueue.c (04371): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_headfile_obj::fqueue.c (00926): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] can_access_file::fq_common.c (02815): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_BAT.h] access OK.
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] can_access_file::fq_common.c (02829): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] fq_mmapping::fqueue.c (00330): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] fq_mmapping::fqueue.c (00342): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_headfile_obj::fqueue.c (01004): exit
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] open_datafile_obj::fqueue.c (01025): enter
+[Tue Feb 20 06:03:06.090 2024] [3946148:0] [trace] can_access_file::fq_common.c (02815): enter
+[Tue Feb 20 06:03:06.091 2024] [3946148:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_BAT.r] access OK.
+[Tue Feb 20 06:03:06.091 2024] [3946148:0] [trace] can_access_file::fq_common.c (02829): exit
+[Tue Feb 20 06:03:06.091 2024] [3946148:0] [trace] open_datafile_obj::fqueue.c (01058): exit
+[Tue Feb 20 06:03:06.091 2024] [3946148:0] [trace] open_backupfile_obj::fqueue.c (01078): enter
+[Tue Feb 20 06:03:06.091 2024] [3946148:0] [trace] open_backupfile_obj::fqueue.c (01102): exit
+[Tue Feb 20 06:03:06.091 2024] [3946148:0] [trace] open_unixQ_obj::fq_unixQ.c (00151): enter
+[Tue Feb 20 06:03:06.091 2024] [3946148:0] [trace] OpenFileQueue::fqueue.c (04524): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [debug] Make_all_fq_objects_linkedlist::fqueue.c (06606): path=[/home/ums/work/jni_deploy/enmq], name=[MTS_RESULT].
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] OpenFileQueue::fqueue.c (04371): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_headfile_obj::fqueue.c (00926): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] can_access_file::fq_common.c (02815): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_RESULT.h] access OK.
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] can_access_file::fq_common.c (02829): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] fq_mmapping::fqueue.c (00330): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] fq_mmapping::fqueue.c (00342): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00031): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_flock_obj::fq_flock.c (00088): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00221): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_shmlock_obj::fq_pthread_mutex_lock.c (00324): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_headfile_obj::fqueue.c (01004): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_datafile_obj::fqueue.c (01025): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] can_access_file::fq_common.c (02815): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [debug] can_access_file::fq_common.c (02828): [/home/ums/work/jni_deploy/enmq/MTS_RESULT.r] access OK.
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] can_access_file::fq_common.c (02829): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_datafile_obj::fqueue.c (01058): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_backupfile_obj::fqueue.c (01078): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_backupfile_obj::fqueue.c (01102): exit
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] open_unixQ_obj::fq_unixQ.c (00151): enter
+[Tue Feb 20 06:03:06.092 2024] [3946148:0] [trace] OpenFileQueue::fqueue.c (04524): exit
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [trace] Make_all_fq_objects_linkedlist::fqueue.c (06648): exit
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [trace] make_thread_sync_CB_server::fq_socket.c (00808): enter
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [debug] make_thread_sync_CB_server::fq_socket.c (00818): ip=[172.30.1.31], port=[7777], header_type=[0], header_size==[4]
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [trace] make_thread_sync_CB_server::fq_socket.c (00828): exit
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [trace] create_tcp_socket::fq_socket.c (00274): enter
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [emerg] main::fq_handler_svr_json.c (01126): fq_handler server (CLANG Co.version 1.0.1) start!!!.(listening ip=[172.30.1.31] port=[7777]
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [debug] create_tcp_socket::fq_socket.c (00353): Server is listening to connect.
+[Tue Feb 20 06:03:06.094 2024] [3946148:0] [trace] create_tcp_socket::fq_socket.c (00354): exit
