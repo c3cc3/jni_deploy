@@ -65,8 +65,8 @@ public class TestDeQXA {
 		for(;;) { // polling file queue.
 
 			rc = fq.readXA(); // XA read 
-			if( rc < 0 ) {
-				if( rc == -99 ) {
+			if( rc < 0 ) { 
+				if( rc == -99 ) { // Manager requests to stop.
 					System.out.println("Manager Stop: " + fq.path + "," + fq.qname);
 					try {
 						Thread.sleep(1000); // Pause for 1 second
@@ -76,12 +76,12 @@ public class TestDeQXA {
 					}
 					continue;
 				}
-				else {
+				else { // Failed to read a message from queue.
 					System.out.println("readXA failed: " + fq.path + "," + fq.qname + "," + " rc: " + rc);
 					break;
 				}
 			}
-			else if( rc == 0 ) {
+			else if( rc == 0 ) { // There is no data in queue.
 				System.out.println("empty: " + fq.path + "," + fq.qname + "," + " rc: " + rc);
 
 				try {
@@ -93,7 +93,7 @@ public class TestDeQXA {
 				if( deQ_count >= count_int ) break;
 				else continue;
 			}
-			else {
+			else { // Success to read a message.
 				String data = fq.get_out_msg();
 				long out_seq = fq.get_out_seq();
 				String out_unlink_filename = fq.get_out_unlink_filename();
@@ -101,6 +101,8 @@ public class TestDeQXA {
 
 				//System.out.println("read success: " +  fq.path + "," + fq.qname + "," + " rc: " + rc + " msg: " + data + " seq: " + out_seq + " unlink_filename: " + out_unlink_filename + " run_timme(micro seconds): " + out_run_time);
 
+				// To do your job,
+				//
 				// input your jobs in here
 				//
 				// We print data, length, sequence
@@ -119,6 +121,7 @@ public class TestDeQXA {
 				}
 
 				int your_job_result = 1;
+
 				if( your_job_result == 1 ) {
 					rc = fq.commitXA();
 					System.out.println("commit success: rc: " + rc);
